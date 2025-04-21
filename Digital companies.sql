@@ -1,5 +1,5 @@
 -- @block 
-CREATE TABLE Digital_companies(
+CREATE TABLE IF NOT EXISTS Digital_companies(
     `Rank` INT,
     Company VARCHAR(50),
     Industry VARCHAR(50),
